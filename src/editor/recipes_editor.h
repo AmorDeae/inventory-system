@@ -18,7 +18,6 @@
 #include <godot_cpp/classes/control.hpp>
 #include <godot_cpp/classes/editor_plugin.hpp>
 #include <godot_cpp/classes/h_split_container.hpp>
-#include <godot_cpp/classes/texture_rect.hpp>
 
 using namespace godot;
 
@@ -35,7 +34,6 @@ private:
 	HSplitContainer *hsplit_container;
 	RecipesListEditor *recipes_list;
 	RecipeEditor *recipe_editor;
-	TextureRect *search_icon;
 
 	void _create_ui();
 	void _apply_theme();

@@ -95,11 +95,6 @@ void RecipesEditor::_load_recipe(const Ref<Recipe> &p_recipe) {
 
 void RecipesEditor::_apply_theme() {
 	BaseInventoryEditor::_apply_theme();
-	
-	// Apply search icon if available
-	if (search_icon && has_theme_icon("Search", "EditorIcons")) {
-		search_icon->set_texture(get_theme_icon("Search", "EditorIcons"));
-	}
 }
 
 // Signal handlers
